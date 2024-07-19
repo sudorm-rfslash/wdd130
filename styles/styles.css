@@ -74,6 +74,11 @@ footer {
   margin: 0 auto;
 }
 
+.grid{
+  display: grid;
+  align-items:center;
+}
+
 footer {
   margin-top: 1em;
   border-top: 1px solid #000;
