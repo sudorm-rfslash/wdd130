@@ -1,0 +1,24 @@
+h1 {
+  color: lightblue;
+  margin: 20px;
+  width:500px;
+}
+body{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+div {
+  border: 5px solid lightblue;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+form,
+label,
+input,
+select,
+textarea,
+button {
+  margin: 10px;
+  width:350px;
+}
