@@ -13,6 +13,10 @@ body {
   background-color: #191b1c;
 }
 
+figcaption{
+  color:white;
+}
+
 nav{
   display:flex;
   justify-content: center;
