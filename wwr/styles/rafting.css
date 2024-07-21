@@ -113,7 +113,7 @@ footer {
 }
 
 .profileimages figure img {
-  display:grid;
+  display: grid;
 
   height: 300px;
   width: auto;
