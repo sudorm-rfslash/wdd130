@@ -22,18 +22,22 @@
   </header>
 
   <main>
-    <div>
-      <h1>Contact Us!</h1>
-      <p>
-        <b>Address: </b>12345 White Water Way<br>
-        Sparkling City, West Dakota<br><br>
-        <b>Phone: </b>(555) 555-5555<br><br>
-        <b>Email: </b><a href="mailto:email@example.com">email@example.com</a><br>
-      </p>
+    <h1>White Water Rafting</h1>
+    <div class="contact">
+      <div>
+        <h1>Contact Us!</h1>
+        <p>
+          <b>Address: </b>12345 White Water Way<br>
+          Sparkling City, West Dakota<br><br>
+          <b>Phone: </b>(555) 555-5555<br><br>
+          <b>Email: </b><a href="mailto:email@example.com">email@example.com</a><br>
+        </p>
+      </div>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d75714.31748109867!2d-99.59735966793511!3d44.13261316241991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1721525543175!5m2!1sen!2sus"
-        width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        width="800" height="500" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
+    <h1>Meet the staff</h1>
     <div class="profileimages">
       <figure><img src="images/employee3.jpg" alt="Employee 1">
         <figcaption>Mr. Manager</figcaption>
@@ -48,33 +52,34 @@
         <figcaption>Tour Guide Bethany</figcaption>
       </figure>
     </div>
-    <div>
-      <form class="forum">
-        <label for="q1">What does the acronym CSS stand for?</label><br>
-        <input type="text" id="q1" name="q1"><br>
+    <div class="forum">
+      <h1>Have A Question?</h1>
+      <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
 
-        <label for="q2">How are id and class attributes selected in CSS?</label><br>
+        <label for="email">Email:</label><br>
+        <textarea id="email" name="email"></textarea><br>
+        <div>
+          <label>Reason:</label>
+          <div><input type="radio" id="general" name="reason" value="HTML"><label for="general">General Inquiry</label><br></div>
+          <div><input type="radio" id="reservation" name="reason" value="reservation"><label for="reservation">Reservation Question</label><br></div>
+          <div><input type="radio" id="website" name="reason" value="website"><label for="website">Website Question</label></div>
+        </div>
+        <br><br>
+        <label for="q2">Message:</label><br>
         <textarea id="q2" name="q2"></textarea><br>
+        <div>
+          <div><input type="checkbox" id="subscribe" name="subscribe" value="HTML"><label for="subscribe">Please subscribe me to the monthly newsletter</label><br></div>
+        </div>
 
-        <label for="q3">Select an option:</label><br>
-        <select id="q3" name="q3">
-          <option value="" selected disabled>Choose One ...</option>
-          <option value="//comment">//comment</option>
-          <option value="#comment">#comment</option>
-          <option value="$comment">$comment</option>
-          <option value="/*comment*/">/*comment*/</option>
-        </select><br>
-
-        <label>What is the bottom margin given this declaration?</label>
-        <label for="q4">margin:10px 5px 15px;</label><br>
-        <input type="number" id="q4" name="q4"><br>
-
-        <button type="submit">Submit Quiz</button>
+        <button type="submit">Submission</button>
       </form>
     </div>
   </main>
   <footer>
     <p>©️ 2024 White Water Rafting - Kyler Evans</p>
+    <a href="/images/contactwireframe.png" target="_blank">Link To Wireframe Used</a>
     <nav class="sociallinks">
       <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
       <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter"></a>

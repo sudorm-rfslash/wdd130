@@ -41,9 +41,14 @@ header {
 }
 
 header nav {
-  width:auto;
+  width: auto;
   display: flex;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+header img {
+  height: 200px;
+  width: auto;
 }
 
 header nav a {
@@ -102,7 +107,7 @@ section {
 }
 
 footer {
-  display:flex;
+  display: flex;
   justify-content: space-between;
   padding: 10px;
   background-color: var(--accent1-color);
@@ -132,15 +137,45 @@ input,
 select,
 textarea,
 button {
-  margin: 10px;
-  width: 350px;
+  margin: 15px;
+  width: 1000px;
+  font-size: 2ch;
 }
 
 label {
   color: white;
 }
+
 .forum {
+  display: grid;
+  align-content: center;
+  justify-content: center;
   border: 5px solid cyan;
   border-radius: 5px;
   margin: 100px;
+  padding: 50px;
+}
+
+.forum div div{
+  display:flex;
+  justify-content: left;
+  align-items: left;
+}
+
+iframe {
+  margin: auto;
+  top: 50px;
+  bottom: 100px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  border: 5px solid cyan;
+  border-radius: 5px;
+  margin: 75px;
+}
+
+.contact div {
+  margin: auto;
 }
