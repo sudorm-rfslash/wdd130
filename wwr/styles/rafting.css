@@ -41,14 +41,15 @@ header {
 }
 
 header nav {
-  display: grid;
+  width:auto;
+  display: flex;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 header nav a {
   color: var(--accent2-color);
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 10px 100px;
   border: solid var(--secondary-color);
   text-align: center;
 }
@@ -101,7 +102,8 @@ section {
 }
 
 footer {
-  text-align: center;
+  display:flex;
+  justify-content: space-between;
   padding: 10px;
   background-color: var(--accent1-color);
   color: var(--accent2-color);
@@ -110,12 +112,35 @@ footer {
 .sociallinks img {
   width: 50px;
   height: auto;
+  align-self: end;
+}
+
+.profileimages {
+  display: flex;
 }
 
 .profileimages figure img {
   display: grid;
-
   height: 300px;
   width: auto;
   margin: 20px;
+}
+
+form,
+label,
+input,
+select,
+textarea,
+button {
+  margin: 10px;
+  width: 350px;
+}
+
+label {
+  color: white;
+}
+.forum {
+  border: 5px solid cyan;
+  border-radius: 5px;
+  margin: 100px;
 }
