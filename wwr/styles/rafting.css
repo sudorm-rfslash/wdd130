@@ -13,12 +13,12 @@ body {
   background-color: #191b1c;
 }
 
-figcaption{
-  color:white;
+figcaption {
+  color: white;
 }
 
-nav{
-  display:flex;
+nav {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -42,7 +42,7 @@ header {
 
 header nav {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 header nav a {
@@ -110,4 +110,12 @@ footer {
 .sociallinks img {
   width: 50px;
   height: auto;
+}
+
+.profileimages figure img {
+  display:grid;
+
+  height: 300px;
+  width: auto;
+  margin: 20px;
 }
