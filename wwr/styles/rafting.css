@@ -10,6 +10,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #191b1c;
 }
 
 h1,
@@ -40,6 +41,10 @@ header nav a {
   padding: 10px 20px;
   border: solid var(--secondary-color);
   text-align: center;
+}
+
+p {
+  color: white;
 }
 
 .hero {
