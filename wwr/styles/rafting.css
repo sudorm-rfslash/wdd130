@@ -158,8 +158,6 @@ label {
 
 .forum div div{
   display:flex;
-  justify-content: left;
-  align-items: left;
 }
 
 iframe {
