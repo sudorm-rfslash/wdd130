@@ -59,7 +59,9 @@ header nav a {
   text-align: center;
 }
 
-p {
+p,
+ol,
+li {
   color: white;
 }
 
@@ -131,6 +133,28 @@ footer {
   margin: 20px;
 }
 
+.trips {
+  display: flex;
+}
+
+.trips figure {
+  display: grid;
+  border: solid cyan;
+}
+
+.trips figure img {
+  display: grid;
+  height: 500px;
+  width: auto;
+  margin: 60px;
+  font-size: xx-large;
+}
+
+.trips figcaption {
+  font-size: x-large;
+  padding: 30px
+}
+
 form,
 label,
 input,
@@ -180,4 +204,41 @@ iframe {
 
 a {
   color: aqua;
+}
+
+.contactbutton button {
+  background-color: var(--accent1-color);
+  color: var(--accent2-color);
+  height: 100px;
+  width: 600px;
+  border: solid cyan;
+  text-decoration: underline;
+}
+
+button {
+  background-color: var(--accent1-color);
+  color: var(--accent2-color);
+  border: solid cyan;
+}
+
+.contact h2 {
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid white;
+}
+
+th,
+td {
+  padding: 15px;
+  /* Increase padding here */
+  text-align: left;
 }
